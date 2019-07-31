@@ -1,0 +1,27 @@
+{
+    "name": "manishjoy/module-payumoney",
+    "description": "PayUmoney integration for Magento 2",
+    "type": "magento2-module",
+    "version": "dev-master",
+    "license": [
+        "OSL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Manish Joy",
+            "email": "manishjoy1993@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "stripe/stripe-php": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "ManishJoy\\StripePayment\\": ""
+        }
+    }
+}
